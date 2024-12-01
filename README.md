@@ -31,7 +31,7 @@ center: (−0.5,1)<br />
 <br />
 
 
-**Phase 1 : Formulation of 5-link Serial-Chain manipulator for kinematic simulation**
+## **Phase 1 : Formulation of 5-link Serial-Chain manipulator for kinematic simulation**
 ![image](https://github.com/user-attachments/assets/8ebeabdb-7ccb-4dab-b1d6-591260e09fe3)
 
 L1=2
@@ -58,7 +58,7 @@ We will use a compact notation $$𝑋 ̇=𝐽(𝜃 ) ̇$$<br />
 where 𝐽 is the Jacobian<br />
 <br />
 
-**Phase 2 : Redundancy resolution**<br />
+## **Phase 2 : Redundancy resolution**<br />
 <ins>i) Using the traditional pseudo-inverse solution</ins><br />
  $$𝑋 ̇=𝐽(𝜃 ) ̇$$<br />
  $$𝜃 ̇=𝐽^{−1} 𝑋 ̇$$<br />
@@ -95,7 +95,7 @@ $$𝑧=[(2(𝜃_1−𝜋/6)  2×0.25(𝜃_2−𝜋/2)  2×0.66(𝜃_3−𝜋/3  
 <br />
 
 
-**Phase 3 : Joint-space control and Task-Space Control** <br />
+## **Phase 3 : Joint-space control and Task-Space Control** <br />
 The desired manipulation rates can be achieved by the manipulator using an appropriately modified closed-loop variant of Resolved motion-rate control. Hence, we will look at 2 types of controllers that allows the actual manipulation rates $$𝑋 ̇ $$ to track the desired manipulation rates $$𝑋^d ̇ $$ <br /> 
  
 The previous equations were for an open loop formulation. <br />
@@ -122,7 +122,7 @@ $$𝐾=[−5 0 ; 0−10]$$ <br />
 <br />
 
 
-**Phase 4 : MATLAB <--> CoppeliaSim**<br />
+## **Phase 4 : MATLAB <--> CoppeliaSim**<br />
 We model the given 5-link Serial Chain Manipulator in CoppeliaSim and connect it to MATLAB<br />
 ![image](https://github.com/user-attachments/assets/153d4e38-7e6d-4b25-b3a0-bb8bc6564332)
 ![image](https://github.com/user-attachments/assets/c2bdbb04-8203-4f7f-bdd1-53bcb2211b09)
@@ -137,7 +137,7 @@ Simulating closed-loop 5-link Serial Chain Manipulator in CoppeliaSim-MATLAB con
 <br />
 
 
-**Phase 5 : Graphical User Interface**<br />
+## **Phase 5 : Graphical User Interface**<br />
 Developing a Graphical User Interface to allow us vary the various parameters of interest and study the effects<br />
 ![image](https://github.com/user-attachments/assets/009df49b-5ecb-4f55-a74f-11489d49e0b1)
 And once we hit the plot button we can see the animation of the manipulator tracing the desired ellipse<br />
