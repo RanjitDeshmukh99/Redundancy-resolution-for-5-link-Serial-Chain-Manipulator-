@@ -1,6 +1,8 @@
 # Redundancy-resolution-for-5-link-Serial-Chain-Manipulator<br />
-### **Authors:** Saneel Revankar, Ranjit Deshmukh<br />
-
+## AuE 8220 – Robotics mobility & manipulation 
+**Authors:** Saneel Revankar, Ranjit Deshmukh
+       <br />Clemson University<br />
+             
 **Motivation:** <br />
 Developed 5-link Serial Chain Manipulator to track desired end effector position trajectories using open-loop and closed-loop control (redundancy-resolution) .
 This project focuses on developing and implementing control strategies for a 5-link robotic serial chain arm manipulator to accurately track desired trajectories within a specified time. It aims to design effective open-loop and closed-loop control algorithms, exploring the impact of link geometry, orientation, and control techniques on robotic manipulators' performance.
