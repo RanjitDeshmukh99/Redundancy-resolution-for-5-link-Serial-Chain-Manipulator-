@@ -116,11 +116,11 @@ $$𝑘_{𝑑𝑖𝑎𝑔}=1/𝜏=1/3$$<br />
 
 <ins>ii) Design of closed-loop task-space controller</ins><br />
 In this case we take the error between desired trajectory co-ordinates and actual trajectory co-ordinates in task space to multiply with controller gains to provide as a feedback. <br />
-$$𝜃 ̇=𝐽^+ 𝑋 ̇+𝐾[𝑋^𝑑−𝑋]$$<br />
+$$𝜃 ̇=𝐽^+ (𝑋 ̇-𝐾[𝑋^𝑑−𝑋])$$<br />
 ![image](https://github.com/user-attachments/assets/05d34c79-26e0-49c8-aeab-e53e58877b06)
 
 Where K is a diagonal matrix<br />
-$$𝐾=[−5 0 ; 0−10]$$ <br />
+$$𝐾=[−5, 0 ; 0, −10]$$ <br />
 (Pole of error dynamics along X is - 5 and Y is -10)<br />
 <br />
 
