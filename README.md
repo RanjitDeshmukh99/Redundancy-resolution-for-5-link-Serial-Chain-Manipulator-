@@ -4,8 +4,8 @@
        <br />Clemson University<br />
              
 **Motivation:** <br />
-Developed 5-link Serial Chain Manipulator to track desired end effector position trajectories using open-loop and closed-loop control (redundancy-resolution) .
-This project focuses on developing and implementing control strategies for a 5-link robotic serial chain arm manipulator to accurately track desired trajectories within a specified time. It aims to design effective open-loop and closed-loop control algorithms, exploring the impact of link geometry, orientation, and control techniques on robotic manipulators' performance.
+This project focuses on studying, developing and implementing control strategies for a 5-link robotic serial chain arm manipulator with redundancy resolution to accurately track desired trajectories within a specified time. The redundant degrees of freedom allow the manipulator to optimize movements, avoid obstacles, and maintain flexibility in tight or complex spaces. Accurate trajectory tracking ensures seamless operations, such as welding joints or applying paint with consistency, while redundancy enables the arm to adapt dynamically to manufacturing constraints, improving efficiency and reliability in modern automotive production processes.
+
 
 **Objective:** <br />
 To achieve a precise tracking of desired trajectory path by the end effector of a given 5-link serial chain robotic arm.
@@ -14,7 +14,7 @@ To achieve a precise tracking of desired trajectory path by the end effector of 
 Formulating kinematic equations for the 5-link serial chain manipulator 
 Implementing different redundancy-resolution techniques for optimal manipulator control to observe and study the behavior of the manipulator.
 Performing simulations on MATLAB-CoppeliaSim connected environment
-Developing a GUI app for studying the effects of varying different parameters 
+Developing a GUI app for conveniently studying the effects of varying different parameters 
 
 **Desired Trajectories:** <br />
 
